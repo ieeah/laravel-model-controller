@@ -1,0 +1,28 @@
+header {
+	display: flex;
+	align-items: center;
+	height: 80px;
+	ul {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		margin-left: auto;
+		li {
+		height: 100%;
+		list-style-type: none;
+		a {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+			padding-inline: 10px;
+			text-decoration: none;
+			font-size: 1.3rem;
+			&.active {
+				background-color: teal;
+			}
+		}
+	}
+	}
+}

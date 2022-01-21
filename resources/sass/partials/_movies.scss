@@ -1,0 +1,17 @@
+.movies_main {
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: 0 auto;
+	row-gap: 10px;
+	column-gap: 30px;
+	.movie_card {
+		width: calc(50% - 30px);
+		background-color: rgba($color: teal, $alpha: .7);
+		backdrop-filter: blur(10px);
+		border-radius: 20px;
+		height: 180px;
+		overflow: hidden;
+		padding: 1.5rem;
+	}
+}
